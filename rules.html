@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rules Round 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="document.body.style.opacity='1'">
+    <div class="rules">
+    <p class="ruleheading">
+        Rules for Round 2:
+    </p>
+
+    <p class="rule">
+        1) There are 7 questions each from 6 topics.
+    </p>
+    <p class="rule">
+        2) When the game starts, you will see the table containing 6 headings and buttons numbered 1-7 for each topic.
+    </p>
+    <p class="rule">
+        3) Hosts will ask each player one by one to choose any question they want. The player shall choose a topic and a question number.
+    </p>
+    <p class="rule">
+        4) Question buttons will look as shown below. Once any player has chosen the question, it will turn red and any other players cannot choose that question.
+    </p>
+    <button class="circle" onclick="changeColor(this)">1</button>
+    <button class="circle" onclick="changeColor(this)">2</button>
+    <button class="circle" onclick="changeColor(this)">3</button>
+    <button class="circle" onclick="changeColor(this)">4</button>
+    <button class="circle" onclick="changeColor(this)">5</button>
+
+    <p class="rule">
+        5) When the host opens any question, you will have 20 seconds to answer that question. Timer will be visible on screen.
+    </p>
+    <p class="rule">
+        6) Marking scheme of each round will be disclosed by the host before respective round.
+    </p>
+    <p class="rule">
+        7) A link to scoreboard will be shared. You can see your score over there.
+    </p>
+</div>
+<a href="home.html" class="start">START GAME</a>
+   
+</body>
+</html>

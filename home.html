@@ -1,0 +1,196 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Playground</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+    <div id="overlay" onclick="off() ; stopTimer()">
+      <div id="image">
+        <!-- <img src="" class="image" id="questionimage" alt="img"> -->  
+        <video src="Resources/Timer20.mp4" class="timer" id="timer"></video>
+        <p id="questiontext">  </p>
+      </div>
+    </div>
+
+    <div class="tablediv">
+      <table class="customTable">
+        <thead>
+          <tr>
+            <th>साहित्य</th>
+            <th>पहेलियाँ</th>
+            <th>मुहावरे/लोकोक्ति</th>
+            <th>व्याकरण</th>
+            <th>शब्दजाल</th>
+            <th>हिंदी</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(11) ; startTimer()">1</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(21) ; startTimer()">1</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(31) ; startTimer()">1</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(41) ; startTimer()">1</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(51) ; startTimer()">1</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(61) ; startTimer()">1</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(12) ; startTimer()">2</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(22) ; startTimer()">2</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this); on(32) ; startTimer()">2</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(42) ; startTimer()">2</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(52) ; startTimer()">2</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(62) ; startTimer()">2</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(13) ; startTimer()">3</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(23) ; startTimer()">3</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(33) ; startTimer()">3</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(43) ; startTimer()">3</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(53) ; startTimer()">3</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(63) ; startTimer()">3</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(14) ; startTimer()">4</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(24) ; startTimer()">4</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(34) ; startTimer()">4</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this); on(44) ; startTimer()">4</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this); on(54) ; startTimer()">4</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this); on(64) ; startTimer()">4</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(15) ; startTimer()">5</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(25) ; startTimer()">5</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(35) ; startTimer()">5</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(45) ; startTimer()">5</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(55) ; startTimer()">5</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(65) ; startTimer()">5</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(16) ; startTimer()">6</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(26) ; startTimer()">6</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(36) ; startTimer()">6</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(46) ; startTimer()">6</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(56) ; startTimer()">6</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(66) ; startTimer()">6</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(17) ; startTimer()">7</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(27) ; startTimer()">7</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(37) ; startTimer()">7</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(47) ; startTimer()">7</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(57) ; startTimer()">7</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(67) ; startTimer()">7</button>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+  
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(38) ; startTimer()">B</button>
+            </td>
+            <td>
+              <button class="circle" onclick="changeColor(this) ; on(48) ; startTimer()">B</button>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
